@@ -1,0 +1,608 @@
+/* General Settings */
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+p {
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  color: hsl(229, 31%, 21%);
+}
+
+/* navigation bar */
+
+nav {
+  margin-top: 25px;
+}
+
+.navbar-nav {
+  margin-left: 535px;
+}
+
+.navbar-brand {
+  margin-left: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 45px;
+  color: hsl(229, 31%, 21%);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.login-btn {
+  padding: 0px 25px;
+  background-color: hsl(0, 94%, 66%);
+  height: 34px;
+}
+
+.login-btn:hover {
+  background-color: white;
+  border: 2px solid  hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+}
+
+/* Main Body */
+
+.main-body {
+  padding-left: 170px;
+}
+
+.main-heading {
+  width: 85%;
+  margin-top: 200px;
+  font-weight: 500;
+  color: hsl(229, 31%, 21%);
+  font-size: 52px;
+}
+
+.sub-heading {
+  width: 85%;
+  margin: 25px 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn-2 {
+  background-color: hsl(231, 69%, 60%);
+}
+
+.btn-2:hover,
+.btn-6:hover {
+  border: 2px solid hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  background-color: white;
+}
+
+.btn-3:hover {
+  border:2px solid hsl(229, 8%, 60%);
+  color: hsl(229, 8%, 60%);
+  background-color: white;
+}
+
+.col-second {
+  right: 75px;
+}
+
+.rectangle {
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 250px;
+  left: 200px;
+  top: 250px;
+  height: 325px;
+  width: 750px;
+}
+
+.illustration-hero {
+  margin-top: 100px;
+}
+
+/* section - Features */
+
+.features {
+  margin-top: 100px;
+  position: relative;
+}
+
+.features-intro {
+  width: 35%;
+  margin: 25px auto 50px;
+}
+
+hr {
+  display: none;
+}
+
+.justify-content-center .nav-item .nav-link {
+  color: hsl(229, 8%, 60%);
+  margin: 0 45px;
+}
+
+.justify-content-center .nav-item .nav-link:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.justify-content-center .nav-item .nav-link:active,
+.justify-content-center .nav-item .nav-link:visited {
+  border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+
+
+.tab-img {
+  margin-top: 100px;
+  margin-left: 225px;
+}
+
+.rectangle-2{
+  height: 325px;
+  width: 800px;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 250px;
+  left: -145px;
+  bottom: -75px;
+}
+
+.tab-heading {
+  margin-top: 165px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.tab-intro {
+  color: hsl(229, 8%, 60%);
+  text-align: left;
+  width: 55%;
+  margin: 25px 100px;
+}
+
+.btn-4 {
+  margin-left: 100px;
+  padding: 0px 25px;
+  height: 45px;
+  background-color: hsl(231, 69%, 60%);
+}
+
+/* Section - Download */
+
+.download {
+  margin-top: 200px;
+  position: relative;
+  height: 800px;
+}
+
+.download-intro {
+  width: 38%;
+  margin: 25px auto 75px;
+}
+
+.card {
+  text-align: center;
+  padding: 25px 25px 10px;
+  position: absolute;
+  width: 18rem;
+  box-shadow: 0 10px 20px 0px hsl(229, 8%, 90%);
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bg-dots {
+  position: relative;
+  right: 42px;
+  margin: 25px auto;
+}
+
+.card-chrome {
+  left: 300px;
+}
+
+.card-firefox {
+  left: 615px;
+  bottom: 175px;
+}
+
+.card-opera {
+  left: 930px;
+  bottom: 125px;
+}
+
+.btn-6 {
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 5px;
+}
+
+/* Section - Questions */
+
+.questions-intro {
+  width: 35%;
+  margin: 25px auto 50px;
+}
+
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  width: 50%;
+  margin-left: 375px;
+  border-top: 1px solid hsl(231, 69%, 60%);
+  border-bottom: 1px solid hsl(231, 69%, 60%);
+}
+
+.accordion:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.panel p {
+  text-align: left;
+}
+
+.icons {
+  float: right;
+}
+
+.btn-7 {
+  margin:50px 700px 100px;
+}
+
+/* Section - SignUp */
+
+.signup {
+  background-color: hsl(231, 69%, 60%);
+  padding: 50px;
+}
+.sign-up-heading {
+  width: 30%;
+  margin: 25px auto;
+  color: white;
+}
+
+.numbers-joined {
+  text-align: center;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 12px;
+}
+
+.textbox {
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 3px;
+  margin-left: 525px;
+}
+
+.btn-8 {
+  background-color: hsl(0, 94%, 66%);
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+.btn-8:hover {
+  background-color: white;
+  border: 2px solid  hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+}
+
+/* Footer */
+
+footer {
+  background-color: hsl(229, 31%, 21%);
+  padding: 50px 50px 35px 175px;;
+  display: flex;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.footer-list {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-left: 45px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.footer-list:hover, i:hover {
+  color:  hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+.social-icons {
+  color:white;
+  margin-left: 500px;
+}
+
+i {
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+  background-color: hsl(229, 31%, 21%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+  .navbar-nav {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin-right: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 25px;
+  }
+
+  .login-btn {
+    width: 35%;
+    margin: 0 auto;
+  }
+
+  .main-body {
+    padding-left: 25px;
+  }
+
+  .main-heading {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sub-heading {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .btn-2 {
+    margin-left: 25px;
+  }
+
+  .rectangle {
+    left: 200px;
+    top: 175px;
+    height: 200px;
+  }
+
+  .illustration-hero {
+    margin: 100px 75px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features {
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .features-intro {
+    width: 100%;
+    padding: 25px;
+  }
+
+  hr {
+    display: block;
+  }
+
+  .justify-content-center .nav-item .nav-link {
+    padding: 15px 45px;
+  }
+
+
+  .tab-img {
+    margin-left: 75px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .rectangle-2{
+    height: 250px;
+    width: 800px;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    z-index: -1;
+    border-radius: 250px;
+    left: -500px;
+    bottom: -75px;
+  }
+
+  .tab-heading {
+    margin-top: 165px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .tab-intro {
+    text-align: center;
+    width: 100%;
+    margin: 25px auto;
+    padding-left: 45px;
+  }
+
+  .btn-4 {
+    margin-left: 50px
+    padding: 0px 25px;
+    background-color: hsl(231, 69%, 60%);
+  }
+
+  .download {
+    margin-top: 150px;
+    position: relative;
+    height: 1500px;
+  }
+
+  .download-intro {
+    text-align: center;
+    width: 100%;
+    margin: 25px auto;
+    padding-left: 35px;
+  }
+
+  .card {
+    text-align: center;
+    padding: 25px 25px 10px;
+    position: absolute;
+    width: 18rem;
+    box-shadow: 0 10px 20px 0px hsl(229, 8%, 90%);
+    border-radius: 10px;
+  }
+
+  .card-img-top {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .bg-dots {
+    position: relative;
+    right: 42px;
+    margin: 25px auto;
+  }
+
+  .card-chrome {
+   left: 50px;
+  }
+
+  .card-firefox {
+    left: 50px;
+    bottom: 550px;
+  }
+
+  .card-opera {
+    left: 50px;
+    bottom: 125px;
+  }
+
+  .questions-heading {
+    padding-left: 25px;
+  }
+
+  .questions-intro {
+    width: 100%;
+    margin: 25px auto;
+    padding: 50px;
+  }
+
+  .accordion {
+    width: 75%;
+    margin-left: 50px;
+  }
+
+  .panel {
+    width: 75%;
+  }
+
+  .icons {
+    float: right;
+  }
+
+  .btn-7 {
+    margin:50px 700px 100px;
+  }
+
+  .signup {
+    background-color: hsl(231, 69%, 60%);
+    padding: 50px;
+  }
+
+  .sign-up-heading {
+    width: 100%;
+    margin: 25px auto;
+    color: white;
+  }
+
+  .numbers-joined {
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .textbox {
+    margin: 0 auto;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .btn-8 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+
+  footer {
+    background-color: hsl(229, 31%, 21%);
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+  }
+
+  .logo {
+    margin-left:75px;
+  }
+
+  .footer-list {
+    list-style: inherit;
+    display: block;
+    margin:25px auto;
+    text-align: center;
+  }
+
+  .footer-list:hover, i:hover {
+    color:  hsl(0, 94%, 66%);
+    cursor: pointer;
+  }
+
+  .social-icons {
+    margin-left: 75px;
+  }
+
+  i {
+    padding: 25px;
+  }
+}

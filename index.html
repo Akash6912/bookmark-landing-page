@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/98fd6868f7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <img src="images/logo-bookmark.svg" alt="logo-bookmark" class="navbar-brand">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <button class="login-btn btn btn-danger btn-lg">Login</button>
+    </ul>
+  </div>
+</nav>
+
+
+<section class="main-body">
+  <div class="row">
+    <div class="col-lg-6 col-12 col-first">
+      <h1 class="main-heading">A Simple Bookmark Manager</h1>
+      <p class="sub-heading">A clean and simple interface to organize your favourite websites. Open a new
+      browser tab and see your sites load instantly. Try it for free.</p>
+      <button type="button" class="btn-2 btn btn-primary btn-lg">Get it on Chrome</button>
+      <button type="button" class="btn-3 btn btn-light btn-lg">Get it on Firefox</button>
+    </div>
+    <div class="col-lg-6 col-12 col-second">
+      <div class="rectangle"></div>
+      <img src="images/illustration-hero.svg" alt="illustration-hero" class="illustration-hero">
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <h2 class="features-heading">Features</h2>
+  <p class="features-intro">Our aim is to make it quick and easy for you to access your favourite websites.
+  Your bookmarks sync between your devices so you can access them on the go.</p>
+  <hr>
+  <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" id="first">Simple Bookmarking</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" id="second">Speedy Searching</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" id="third">Easy Sharing</a>
+  </li>
+</ul>
+<hr>
+<div class="row">
+  <div class="col-lg-6">
+      <div class="rectangle-2"></div>
+      <img src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" class="tab-img">
+  </div>
+  <div class="col-lg-6">
+    <h2 class="tab-heading">Bookmark in one click</h2>
+    <p class="tab-intro">Organize your bookmarks however you like. Our simple drag-and-drop interface
+    gives you complete control over how you manage your favourite sites.</p>
+    <button type="button" class="btn-4 btn btn-primary btn-lg">More Info</button>
+  </div>
+</div>
+</section>
+
+<section class="download">
+  <h2 class="download-heading">Download the extension</h2>
+  <p class="download-intro">We’ve got more browsers in the pipeline. Please do let us know if you’ve
+  got a favourite you’d like us to prioritize.</p>
+  <div class="card card-chrome">
+  <img class="card-img-top" src="images/logo-chrome.svg" alt="logo-chrome">
+  <div class="card-body">
+    <h4 class="card-title">Add to Chrome</h4>
+    <p class="card-text">Minimum version 62</p>
+    <img src="images/bg-dots.svg" alt="bg-dots" class="bg-dots">
+    <a href="#" class="btn-6 btn btn-primary">Add & Install Extension</a>
+  </div>
+</div>
+<div class="card card-firefox">
+<img class="card-img-top" src="images/logo-firefox.svg" alt="logo-firefox">
+<div class="card-body">
+  <h4 class="card-title">Add to Firefox</h4>
+  <p class="card-text">Minimum version 55</p>
+  <img src="images/bg-dots.svg" alt="bg-dots" class="bg-dots">
+  <a href="#" class="btn-6 btn btn-primary">Add & Install Extension</a>
+</div>
+</div>
+<div class="card card-opera">
+<img class="card-img-top" src="images/logo-opera.svg" alt="logo-opera">
+<div class="card-body">
+  <h4 class="card-title">Add to Opera</h4>
+  <p class="card-text">Minimum version 46</p>
+  <img src="images/bg-dots.svg" alt="bg-dots" class="bg-dots">
+  <a href="#" class="btn-6 btn btn-primary">Add & Install Extension</a>
+</div>
+</div>
+</section>
+
+<body>
+
+<section class="questions">
+  <h2 class="questions-heading">Frequently Asked Questions</h2>
+  <p class="questions-intro">Here are some of our FAQs. If you have any other questions you’d like
+  answered please feel free to email us.</p>
+
+<button class="accordion">What is Bookmark?<span class="icons"> <i onclick="myFunction(this)" class="icons fas fa-angle-down fa-2x"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p></div>
+
+<button class="accordion">How can I request a new browser? <i onclick="myFunction(this)" class="icons fas fa-angle-down fa-2x"></i></button>
+<div class="panel">
+  <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+  Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+  ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+</div>
+
+<button class="accordion">Is there a mobile app? <i onclick="myFunction(this)" class="icons fas fa-angle-down fa-2x"></i></button>
+<div class="panel">
+  <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
+  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+  sollicitudin ex et ultricies bibendum.</p>
+</div>
+
+<button class="accordion">What about other Chromium browsers? <i onclick="myFunction(this)" class="icons fas fa-angle-down fa-2x"></i></button>
+<div class="panel">
+  <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
+  vitae neque eget nisl gravida pellentesque non ut velit.</p>
+</div>
+
+<br>
+<button type="button" name="button" class="btn-7 btn btn-primary">More Info</button>
+</section>
+
+<section class="signup">
+  <h6 class="numbers-joined">35,000+ ALREADY JOINED</h6>
+  <h2 class="sign-up-heading">Stay up-to-date with what we’re doing</h2>
+  <input type="text" class="textbox" name="" value="" placeholder="Your email address..">
+  <button type="button" name="button" class="btn-8 btn btn-danger">Contact us</button>
+</section>
+
+
+  <footer>
+    <div class="">
+      <img src="logo2.svg" alt="logo" class="logo">
+    </div>
+    <div class="">
+      <ul>
+        <li class="footer-list">Features</li>
+        <li class="footer-list">Pricing</li>
+        <li class="footer-list">Contact</li>
+      </ul>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook-square fa-2x"></i>
+      <i class="fab fa-twitter fa-2x"></i>
+    </div>
+    </footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Akash Gedam</a>.
+    </p>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
